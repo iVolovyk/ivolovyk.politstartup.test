@@ -1,52 +1,564 @@
-<!doctype html>
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>ivolovyk.politstartup.test by iVolovyk</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Місцеві вибори 2015">
+    <meta name="keywords" content="місцеві вибори 2015, выбори 2015">
+    <meta name="author" content="">
 
-  </head>
-  <body>
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
 
-      <header>
-        <h1>ivolovyk.politstartup.test</h1>
-        <p></p>
-      </header>
+    <title>Місцеві вибори 2015</title>
 
-      <div id="banner">
-        <span id="logo"></span>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
-        <a href="https://github.com/iVolovyk/ivolovyk.politstartup.test" class="button fork"><strong>View On GitHub</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/iVolovyk/ivolovyk.politstartup.test/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/iVolovyk/ivolovyk.politstartup.test/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div>
-      </div><!-- end banner -->
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lora&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <p>ivolovyk.politstartup.test</p>
-      </section>
-      <footer>
-        <p>Project maintained by <a href="https://github.com/iVolovyk">iVolovyk</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
     
-  </body>
+    <!-- VK Widget -->
+    <script src="http://vk.com/js/api/openapi.js" type="text/javascript"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Місцеві Вибори 2015</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">Про семінар</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Програма</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#speakers">Спікери</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#details">Деталі</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Контакти</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Фото</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>ЯК ПРОВЕСТИ БЮДЖЕТНУ ВИБОРЧУ КАМПАНІЮ ТА ПЕРЕМОГТИ?
+                </h1>
+                <hr>
+                <p>Місцеві вибори - 2015<br/>Одноденний практичний семінар. 18 Липня. Київ
+                </p>
+                <a href="#registration" class="btn btn-primary btn-xl page-scroll">Реєстрація</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Цей семінар для Вас якщо Ви</h2>
+                    <hr class="light">
+                    <p class="text-faded-cutom"><i class="fa fa-check-square-o"></i> Кандидат у депутати;<br/>
+                    <i class="fa fa-check-square-o"></i> Кандидат у міські, сільські, селищні голови;<br/>
+                    <i class="fa fa-check-square-o"></i> Керівник або працівник виборого штабу;<br/>
+                    <i class="fa fa-check-square-o"></i> Довірена особа кандидата.<br/><br/></p>
+                    <p class="text-faded"><span>Завдання семінару – дати Вам алгоритм перемоги на місцевих виборах 2015</span>.<br/>
+                    Ми розповімо як провести бюджетну виборчу кампанію та перемогти у більш потужних конкурентів. На семінарі будуть наведені практичні кейси учасників місцевих виборів 2010 року. Команда організаторів та спікери після семінару будуть готові допомогти вам у проведенні ваших виборчих кампаній.
+                    </p>
+                    <a href="#registration" class="btn btn-default btn-xl page-scroll">Реєстрація</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">План семінару</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-star wow bounceIn text-primary"></i>
+                        <h3></h3>
+                        <p class="text-muted">Вибір суб’єкта висування та позиціонування.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-user-plus wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3></h3>
+                        <p class="text-muted">Реєстрація кандидата.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-money wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3></h3>
+                        <p class="text-muted">Розрахунок вартісті виборчої кампанії.</p>
+                    </div>
+                </div>           
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-calendar wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3></h3>
+                        <p class="text-muted">Планування та стратегія виборчої кампанії.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-bar-chart wow bounceIn text-primary"></i>
+                        <h3></h3>
+                        <p class="text-muted">Ефективність  виборчих технологій.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-users wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3></h3>
+                        <p class="text-muted">Формування штабу кандидата.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-thumbs-o-up wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3></h3>
+                        <p class="text-muted">Організація ефективних зустрічей кандидата з виборцями.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-eye wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3></h3>
+                        <p class="text-muted">Організація захисту голосування.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-trophy wow bounceIn text-primary"></i>
+                        <h3></h3>
+                        <p class="text-muted">АЛГОРИТМ успішної бюджетної виборчої кампанії!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-12 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-exclamation-circle wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3></h3>
+                        <p class="text-muted">Всі теми семінару будуть забезпечені методичними матеріалами!</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <section id="speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Спікери</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <div class="service-box">
+                        <img src="img/speaker.jpg" alt="" class="speaker">
+                        <h3>Спікер спікер</h3>
+                        <p class="text-muted">Про спікера.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <div class="service-box">
+                        <img src="img/speaker.jpg" alt="" class="speaker">
+                        <h3>Спікер спікер</h3>
+                        <p class="text-muted">Про спікера.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <div class="service-box">
+                        <img src="img/speaker.jpg" alt="" class="speaker">
+                        <h3>Спікер спікер</h3>
+                        <p class="text-muted">Про спікера.</p>
+                    </div>
+                </div>           
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <div class="service-box">
+                        <img src="img/speaker.jpg" alt="" class="speaker">
+                        <h3>Спікер спікер</h3>
+                        <p class="text-muted">Про спікера.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary" id="details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Деталі</h2>
+                    <hr class="light">
+                    <p class="text-faded"><span>Місце проведення:</span> м. Київ, вул. Малишка 1, Готель Братислава.<br/>
+                    <span>Дати проведення:</span> 18 липня, субота, з 9 до 21 години.<br/>
+                    <span>Вартість участі cкладає:<br/>
+                    <i class="fa fa-check-square-o"></i> 800 грн при оплаті до 8 липня;<br/>
+                    <i class="fa fa-check-square-o"></i> 1000 грн при оплаті до 12 липня;<br/>
+                    <i class="fa fa-check-square-o"></i> 1200 грн при оплаті до 17 липня.<br/><br/>
+                    50% оплачується після реєстрації, 50% перед першим заняттям. Деталі оплати та реквізити - після реєстрації.<br/>
+                    Організатори забезпечують індивідуальні безкоштовні консультації з будь-яких питань проведення вашої виборчої кампанії.<br/><br/>
+                    Кількість місць обмежена.</span>
+                    </p>
+                    <a href="#registration" class="btn btn-default btn-xl page-scroll">Реєстрація</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2 text-center">
+                    <h2 class="section-heading">Наші контакти</h2>
+                    <hr class="primary">
+                    <p>Організатор: Аналітичний центр "1991". Свідоцтво про реєстрацію № 1426761.<br/>
+                    Місце проведення м. Київ, Готель Братислава, вул. Малишка 1, м. Дарниця.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p><a href="tel://+380930024448">+38 (093) 002-44-48</a> Олександр<br/>
+                    <a href="tel://+380930782882">+38 (093) 078-28-82</a> Софія</p>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:politstartup@gmail.com">politstartup@gmail.com</a></p>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <i class="fa fa-vk fa-3x wow bounceIn" data-wow-delay=".2s"></i>
+                    <p><a href="http://vk.com/nardep__ua" target="_blank">Олександр Боришкевич</a></p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-6 col-lg-offset-1 col-md-offset-1">
+                    <div id="vk_groups"></div>
+                        <script type="text/javascript"> VK.Widgets.Group("vk_groups", {mode: 0, width: "360", height: "300", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 69089724);
+                        </script>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-6 col-lg-offset-1 col-md-offset-1">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.121534080073!2d30.6094035!3d50.4574615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cffc9bc1f111%3A0xba269784e1efa105!2z0LLRg9C7LiDQkNC90LTRgNGW0Y8g0JzQsNC70LjRiNC60LAsIDEsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1436026377469" width="360" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <hr class="primary">
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/1.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/2.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/3.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/4.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/5.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/6.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/7.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/7.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/8.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/8.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/9.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/9.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/10.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/10.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/11.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/11.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/12.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/12.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/13.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/13.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/14.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/14.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/15.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/15.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-3 col-xs-6">
+                    <a href="img/portfolio/original/16.jpg" class="portfolio-box item">
+                        <img src="img/portfolio/16.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    <i class="fa fa-4x fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="bg-dark" id="registration">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Зареєструйся сьогодні, отримай перемогу на виборах завтра!</h2>
+                <form id="form">
+                    <input type="text" name="name" placeholder="Ваше ПІБ" required /><br />
+                    <input type="text" name="phone" placeholder="Номер телефону" required /><br />
+                    <input type="text" name="email" placeholder="Електронна пошта" required /><br />
+                    <input type="text" name="social" placeholder="Профіль в соцмережах" required /><br />
+                    <input type="text" name="region" placeholder="Ваш регіон" required /><br />
+                    <button class="btn btn-primary btn-xl wow tada">Зареєструватися</button>
+                </form>
+            </div>
+        </div>
+    </aside>
+
+    <footer class="main_footer bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    &copy; 2015 Аналітичний центр "1991". Всі права захищені відповідно до чинного законодавства України.<br/>
+                    Сайт виконав <a href="http://vk.com/mr.volovyk" target="_blank">iVolovyk</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</body>
+
 </html>
