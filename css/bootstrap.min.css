@@ -52,3 +52,6 @@
 	padding-left: 12px;
 	padding-right: 12px;
 }
+.no-padding-bottom {
+    padding-bottom: 0; 
+}

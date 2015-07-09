@@ -243,7 +243,7 @@ header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
-        font-size: 24px;
+        font-size: 28px;
 }
 
 .section-heading {
@@ -503,4 +503,7 @@ input {
     border: 1px solid #fff;
     font-size: 18px;
     text-align: center;
+}
+.no-padding-bottom {
+    padding-bottom: 0; 
 }
