@@ -55,6 +55,12 @@
         mainClass: 'mfp-fade'
     });
 
+    $(".review").magnificPopup({
+        type : 'image',
+        removalDelay: 300,
+        mainClass: 'mfp-fade'
+    });
+
     //mail custom
     $("#form").submit(function() {
         $.ajax({
