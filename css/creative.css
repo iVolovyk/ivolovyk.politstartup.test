@@ -502,7 +502,8 @@ input {
     width: 300px;
     border: 1px solid #fff;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
 }
 .no-padding-bottom {
     padding-bottom: 0; 
@@ -512,17 +513,18 @@ option {
 }
 select {
     background-color: #fff;
-    color: #777;
+    color: #757575;
     height: 40px;
     margin-bottom: 10px;
     border-radius: 30px;
     width: 300px;
     border: 1px solid #fff;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
 }
 .jfk-button {
     width: 200px;
     height: 50px;
-    text-align: center;
+    text-align: left;
 }
