@@ -546,7 +546,13 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Зареєструйся сьогодні, отримай перемогу на виборах завтра!</h2>
-                <form action="https://docs.google.com/forms/d/1zMauOhYapQIV5-t_zDEsSe-3vjfrzFTCickmaBVvPeo/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+                <script type="text/javascript">var submitted=false;</script>
+                <iframe name="hidden_iframe" id="hidden_iframe"
+                style="display:none;" onload="if(submitted)
+                {window.location='payment.html';}"></iframe>
+                <form action="https://docs.google.com/forms/d/1zMauOhYapQIV5-t_zDEsSe-3vjfrzFTCickmaBVvPeo/formResponse" method="post"
+                target="hidden_iframe" onsubmit="submitted=true;">
+                <!--<form action="https://docs.google.com/forms/d/1zMauOhYapQIV5-t_zDEsSe-3vjfrzFTCickmaBVvPeo/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">-->
                     <ol role="list" class="ss-question-list" style="padding-left: 0">
                     <div class="ss-form-question errorbox-good" role="listitem">
                     <div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
