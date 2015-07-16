@@ -528,3 +528,15 @@ select {
     height: 50px;
     text-align: left;
 }
+.text-faded-payment {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.text-faded-payment a {
+    color: #222;
+}
+
+.text-faded-payment span {
+    font-weight: bold;
+}
