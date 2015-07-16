@@ -55,3 +55,22 @@
 .no-padding-bottom {
     padding-bottom: 0; 
 }
+option {
+    color: #000;
+}
+select {
+    background-color: #fff;
+    color: #777;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 300px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.jfk-button {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
